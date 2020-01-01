@@ -1,0 +1,163 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{cf4888c0-3ae6-478d-837a-7f066eb5787f}",
+    "requestedTheme": "dark",
+    "initialCols": 160,
+    "initialRows": 48,
+
+    "profiles":
+    [
+        {
+            "guid": "{cf4888c0-3ae6-478d-837a-7f066eb5787f}",
+            "name": "MinGW - Zsh",
+            "icon": "C:\\msys64\\msys2.ico",
+            "commandline": "cmd.exe /c \"set CHERE_INVOKING=1&& set MSYS=winsymlinks:nativestrict&& set MSYSTEM=MINGW64&& C:\\msys64\\usr\\bin\\zsh.exe --login -i\"",
+            "startingDirectory": "%USERPROFILE%",
+            "hidden": false,
+            "fontFace": "InconsolataGo NF",
+            "fontSize": 10,
+            "colorScheme": "Material",
+            "acrylicOpacity": 0.85,
+            "useAcrylic": true
+        },
+        {
+            "guid": "{0b80864c-295d-4817-bda9-0b46d3b25956}",
+            "name": "MinGW - Bash",
+            "icon": "C:\\msys64\\msys2.ico",
+            "commandline": "cmd.exe /c \"set CHERE_INVOKING=1&& set MSYS=winsymlinks:nativestrict&& set MSYSTEM=MINGW64&& C:\\msys64\\usr\\bin\\bash.exe --login -i\"",
+            "startingDirectory": "%USERPROFILE%",
+            "hidden": false,
+            "fontFace": "InconsolataGo NF",
+            "fontSize": 10,
+            "colorScheme": "Material",
+            "acrylicOpacity": 0.85,
+            "useAcrylic": true
+        },
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "hidden": false,
+            "fontFace": "InconsolataGo NF",
+            "fontSize": 10,
+            "colorScheme": "Material",
+            "acrylicOpacity": 0.85,
+            "useAcrylic": true
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "Command Prompt",
+            "commandline": "cmd.exe /k \"C:\\Tools\\Clink\\clink_x64.exe inject\"",
+            "hidden": false,
+            "fontFace": "InconsolataGo NF",
+            "fontSize": 10,
+            "colorScheme": "Material",
+            "acrylicOpacity": 0.85,
+            "useAcrylic": true
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        }
+    ],
+
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "name": "OneDark",
+            "foreground": "#abb2bf",
+            "background": "#282c34",
+            "black": "#282c34",
+            "blue": "#61afef",
+            "green": "#98c379",
+            "cyan": "#56b6c2",
+            "red": "#e06c75",
+            "purple": "#c678dd",
+            "yellow": "#d19a66",
+            "white": "#abb2bf",
+            "brightBlack": "#828997",
+            "brightBlue": "#61afef",
+            "brightGreen": "#98c379",
+            "brightCyan": "#56b6c2",
+            "brightRed": "#e5847b",
+            "brightPurple": "#c678dd",
+            "brightYellow": "#e5c07b",
+            "brightWhite": "#ffffff"
+        },
+        {
+            "name": "Material",
+            "foreground": "#CCCFD1",
+            "background": "#313540",
+            "black": "#000000",
+            "blue": "#6090F0",
+            "green": "#9ECE58",
+            "cyan": "#33CCDD",
+            "red": "#E55B5B",
+            "purple": "#BB80B3",
+            "yellow": "#EEBD50",
+            "white": "#D0D0D0",
+            "brightBlack": "#6B6B6B",
+            "brightBlue": "#72A4FF",
+            "brightGreen": "#C3E88D",
+            "brightCyan": "#79D8FF",
+            "brightRed": "#FF5370",
+            "brightPurple": "#C792EA",
+            "brightYellow": "#FFDD6B",
+            "brightWhite": "#FFFFFF"
+        }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": [
+        {
+            "command": "newTab",
+            "keys": ["ctrl+t"]
+        },
+        {
+            "command": "switchToTab0",
+            "keys": ["ctrl+1"]
+        },
+        {
+            "command": "switchToTab1",
+            "keys": ["ctrl+2"]
+        },
+        {
+            "command": "switchToTab2",
+            "keys": ["ctrl+3"]
+        },
+        {
+            "command": "switchToTab3",
+            "keys": ["ctrl+4"]
+        },
+        {
+            "command": "switchToTab4",
+            "keys": ["ctrl+5"]
+        },
+        {
+            "command": "switchToTab5",
+            "keys": ["ctrl+6"]
+        },
+        {
+            "command": "switchToTab6",
+            "keys": ["ctrl+7"]
+        },
+        {
+            "command": "switchToTab7",
+            "keys": ["ctrl+8"]
+        },
+        {
+            "command": "switchToTab8",
+            "keys": ["ctrl+9"]
+        }
+    ]
+}
