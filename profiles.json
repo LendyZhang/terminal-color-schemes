@@ -5,39 +5,13 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{cf4888c0-3ae6-478d-837a-7f066eb5787f}",
+    "defaultProfile": "{0b80864c-295d-4817-bda9-0b46d3b25956}",
     "requestedTheme": "dark",
     "initialCols": 160,
     "initialRows": 48,
 
     "profiles":
     [
-        {
-            "guid": "{cf4888c0-3ae6-478d-837a-7f066eb5787f}",
-            "name": "MinGW - Zsh",
-            "icon": "C:\\msys64\\msys2.ico",
-            "commandline": "cmd.exe /c \"set CHERE_INVOKING=1&& set MSYS=winsymlinks:nativestrict&& set MSYSTEM=MINGW64&& C:\\msys64\\usr\\bin\\zsh.exe --login -i\"",
-            "startingDirectory": "%USERPROFILE%",
-            "hidden": false,
-            "fontFace": "InconsolataGo NF",
-            "fontSize": 10,
-            "colorScheme": "Material",
-            "acrylicOpacity": 0.85,
-            "useAcrylic": true
-        },
-        {
-            "guid": "{0b80864c-295d-4817-bda9-0b46d3b25956}",
-            "name": "MinGW - Bash",
-            "icon": "C:\\msys64\\msys2.ico",
-            "commandline": "cmd.exe /c \"set CHERE_INVOKING=1&& set MSYS=winsymlinks:nativestrict&& set MSYSTEM=MINGW64&& C:\\msys64\\usr\\bin\\bash.exe --login -i\"",
-            "startingDirectory": "%USERPROFILE%",
-            "hidden": false,
-            "fontFace": "InconsolataGo NF",
-            "fontSize": 10,
-            "colorScheme": "Material",
-            "acrylicOpacity": 0.85,
-            "useAcrylic": true
-        },
         {
             // Make changes here to the powershell.exe profile
             "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -55,6 +29,19 @@
             "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
             "name": "Command Prompt",
             "commandline": "cmd.exe /k \"C:\\Tools\\Clink\\clink_x64.exe inject\"",
+            "hidden": false,
+            "fontFace": "InconsolataGo NF",
+            "fontSize": 10,
+            "colorScheme": "Material",
+            "acrylicOpacity": 0.85,
+            "useAcrylic": true
+        },
+        {
+            "guid": "{0b80864c-295d-4817-bda9-0b46d3b25956}",
+            "name": "Git Bash",
+            "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+            "commandline": "cmd.exe /c \"set CHERE_INVOKING=1&& set MSYS=winsymlinks:nativestrict&& set MSYSTEM=MINGW64&& \"C:\\Program Files\\Git\\bin\\bash.exe\" --login -i\"",
+            "startingDirectory": "%USERPROFILE%",
             "hidden": false,
             "fontFace": "InconsolataGo NF",
             "fontSize": 10,
