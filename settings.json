@@ -6,7 +6,7 @@
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
     "defaultProfile": "{0b80864c-295d-4817-bda9-0b46d3b25956}",
-    "requestedTheme": "dark",
+    "theme": "dark",
     "initialCols": 160,
     "initialRows": 48,
 
@@ -18,8 +18,8 @@
             "name": "Windows PowerShell",
             "commandline": "powershell.exe",
             "hidden": false,
-            "fontFace": "InconsolataGo NF",
-            "fontSize": 10,
+            "fontFace": "JetBrains Mono",
+            "fontSize": 9,
             "colorScheme": "Material",
             "acrylicOpacity": 0.85,
             "useAcrylic": true
@@ -30,8 +30,21 @@
             "name": "Command Prompt",
             "commandline": "cmd.exe /k \"C:\\Tools\\Clink\\clink_x64.exe inject\"",
             "hidden": false,
-            "fontFace": "InconsolataGo NF",
-            "fontSize": 10,
+            "fontFace": "JetBrains Mono",
+            "fontSize": 9,
+            "colorScheme": "Material",
+            "acrylicOpacity": 0.85,
+            "useAcrylic": true
+        },
+        {
+            "guid": "{dfc3aae4-9ba8-4dcd-9a55-6e12d0c6ced2}",
+            "name": "Visual Studio 2019",
+            "icon": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\Assets\\VisualStudio.70x70.contrast-standard_scale-100.png",
+            "commandline": "cmd.exe /k \"\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat\"&& C:\\Tools\\Clink\\clink_x64.exe inject\"",
+            "startingDirectory": "%USERPROFILE%",
+            "hidden": false,
+            "fontFace": "JetBrains Mono",
+            "fontSize": 9,
             "colorScheme": "Material",
             "acrylicOpacity": 0.85,
             "useAcrylic": true
@@ -40,11 +53,11 @@
             "guid": "{0b80864c-295d-4817-bda9-0b46d3b25956}",
             "name": "Git Bash",
             "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-            "commandline": "cmd.exe /c \"set CHERE_INVOKING=1&& set MSYS=winsymlinks:nativestrict&& set MSYSTEM=MINGW64&& \"C:\\Program Files\\Git\\bin\\bash.exe\" --login -i\"",
+            "commandline": "cmd.exe /s /c \"set CHERE_INVOKING=1&& set MSYS=winsymlinks:nativestrict&& set MSYSTEM=MINGW64&& \"C:\\Program Files\\Git\\bin\\bash.exe\" --login -i\"",
             "startingDirectory": "%USERPROFILE%",
             "hidden": false,
-            "fontFace": "InconsolataGo NF",
-            "fontSize": 10,
+            "fontFace": "JetBrains Mono",
+            "fontSize": 9,
             "colorScheme": "Material",
             "acrylicOpacity": 0.85,
             "useAcrylic": true
