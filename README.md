@@ -5,6 +5,8 @@ Color schemes for various terminals.
 
 ## Material theme colors
 
+| Name       | Color   |
+| ---------- | ------- |
 | Foreground | #CCCFD1 |
 | Background | #313540 |
 | Black      | #000000 |
@@ -15,7 +17,6 @@ Color schemes for various terminals.
 | Magenta    | #BB80B3 |
 | Yellow     | #EEBD50 |
 | White      | #D0D0D0 |
-
 | B.Black    | #6B6B6B |
 | B.Blue     | #72A4FF |
 | B.Green    | #C3E88D |
